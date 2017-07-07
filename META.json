@@ -1,0 +1,47 @@
+{
+ "name": "jx_io",
+ "abstract": "This PostgreSQL extension implements  functions to export/import JOSN ann XML from/to PostgreQSL ",
+ "description": "This PostgreSQL extension implements  functions to export/import JOSN ann XML from/to PostgreQSL c",
+ "version": "0.1.0",
+ "maintainer": "Anthony <asotolongo@gmail.com>",
+ "license": {
+      "PostgreSQL": "http://www.postgresql.org/about/licence"
+   },
+ "provides": {
+    "jx_io": {
+       "abstract": "This PostgreSQL extension implements  functions to export/import JOSN ann XML from/to PostgreQSL",
+       "file": "jx_io--0.1.0.sql",
+       "docfile": "README",
+       "version": "0.1.0"
+    }
+ },
+ "prereqs": {
+    "runtime": {
+       "requires": {
+          "PostgreSQL": "9.2.0"
+       }
+    }
+ },
+ "resources": {
+      "homepage": "http://anthonysotolongo.wordpress.com",
+      "bugtracker": {
+         "mailto": "asotolongo@gmail.com"
+      },
+      "repository": {
+         "url":  "https://github.com/asotolongo/jx_io.git",
+         "web":  "https://github.com/asotolongo ",
+        "type": "git"
+      }
+   },
+   "generated_by": "Anthony R. Sotolongo Leon",
+   "meta-spec": {
+      "version": "1.0.0",
+      "url": "http://pgxn.org/meta/spec.txt"
+   },
+   "tags": [
+      "json","xml","datatype"
+   ]
+}
+
+
+
