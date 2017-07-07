@@ -1,8 +1,8 @@
 jx_io extension
 ======================================
 
-This PostgreSQL extension implements  functions to export/import JOSN ann XML from/to PostgreQSL
-#Tested  9.4+
+This PostgreSQL extension implements  functions to export/import JSON ann XML from/to PostgreSQL
+#Tested  9.2+
 
 IMPORTANT: There're bugs in the existing version, please contact to me.
 
